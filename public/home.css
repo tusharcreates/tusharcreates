@@ -1,0 +1,88 @@
+*{
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+    box-sizing: content-box;
+}
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid darkgray;;
+}
+.red{
+    color:red;
+    margin-bottom:30px;
+}
+.signup-container{
+    padding: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+}
+.signup-form{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px;
+    height: 500px;
+}
+.music-img{
+    width: 50%;
+}
+.forms{
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    color: darkgray;
+}
+.input-feild{
+    width: 100%;
+}
+.submit-button{
+    margin-left: 80px;
+    color: darkgray;
+    background: none;
+    border: 1px darkgray solid;
+    cursor: pointer;
+}
+.submit-button:hover{
+    background:darkgrey;
+    color: rgb(255, 255, 255);
+}
+.login-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.signup{
+    font-size: small;
+    text-decoration: underline;
+    color: rgb(119, 119, 255);
+    cursor: pointer;
+}
+.feild{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+#password{
+    margin-left: 10px;
+}
+/* #root{
+    width: 100%;
+    height: 800px;
+} */
+@media screen and (max-width:875px) {
+    .music-img{
+        display: none;
+    }
+    .input-feild{
+       margin-left: 10px;
+    }
+}

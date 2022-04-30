@@ -1,0 +1,37 @@
+<link rel="stylesheet"href="/home.css">
+<div class="signup-container">
+    <div class="red">
+        <%= error %>
+    </div>
+        <form class="signup-form" action='/users/create' method="POST">
+                        <img src="/music.jpg" class="music-img">
+                        <div class="input-feild">
+                        <div class="forms">
+
+                        <div class="feild">
+                        <label for="username">User Name</label>
+                        <input type="text" name="username" id="username">
+                        </div>
+
+                        <div class="feild">
+                        <label for="password">New Password</label>
+                        <input type="password" name="new_password" id="newpassword">
+                        </div>
+
+                        <div class="feild">
+                        <label for="password">Confirm Password</label>
+                        <input type="password" name="confirm_password" id="confirmpassword">
+                        </div>
+
+                        <div class="login-container feild">
+                                Remember me<input name="remeberme" type="checkbox">
+                                <input class="submit-button" type="submit">
+                        </div> 
+                        <div class="signup"><a >Sign Up?</a></div>
+                        </div> 
+                        
+                        </div>
+                        
+                </div>
+        </form>
+</div>

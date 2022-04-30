@@ -1,0 +1,38 @@
+<link rel="stylesheet"href="/home.css">
+
+<div id="root"></div>
+
+<div class="signup-container">
+        <div class="red">
+                <%= error %>
+            </div>
+        <form class="signup-form" method="post">
+                <img src="/music.jpg" class="music-img">
+                <div class="input-feild">
+                <div class="forms">
+
+                <div class="feild">
+                <label for="username">User Name</label>
+                <input type="text" name="username" id="username">
+                </div>
+
+                <div class="feild">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="newpassword">
+                </div>
+
+                <div class="login-container feild">
+                        Remember me<input name="remeberme" type="checkbox">
+                        <input class="submit-button" type="submit">
+                </div> 
+                <div class="signup"><a href="http://localhost:8000/sign-up">Sign Up?</a></div>
+                </div> 
+                
+                </div>
+                
+        </div>
+</form>
+
+</div>
+
+<script src="dyte.js"></script>
