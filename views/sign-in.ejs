@@ -1,4 +1,4 @@
-<link rel="stylesheet"href="/home.css">
+<link rel="stylesheet" href="/css/home.css">
 
 <div id="root"></div>
 
@@ -6,8 +6,8 @@
         <div class="red">
                 <%= error %>
             </div>
-        <form class="signup-form" method="post">
-                <img src="/music.jpg" class="music-img">
+        <form class="signup-form" action="/users/createsession" method="POST">
+                <img src="/img/music.jpg" class="music-img">
                 <div class="input-feild">
                 <div class="forms">
 
@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="login-container feild">
-                        Remember me<input name="remeberme" type="checkbox">
+                        <div class="rememberme">Remember me<input name="remeberme" type="checkbox"></div>
                         <input class="submit-button" type="submit">
                 </div> 
                 <div class="signup"><a href="http://localhost:8000/sign-up">Sign Up?</a></div>
