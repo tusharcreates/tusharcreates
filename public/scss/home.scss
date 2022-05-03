@@ -1,6 +1,11 @@
 *{
     font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
     box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
 }
 input{
     background: none;
@@ -12,7 +17,6 @@ input{
     margin-bottom:30px;
 }
 .signup-container{
-    padding: 40px;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -32,7 +36,6 @@ input{
     width: 50%;
 }
 .forms{
-    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,6 +45,9 @@ input{
     color: darkgray;
 }
 .input-feild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 .submit-button{
@@ -74,15 +80,28 @@ input{
 #password{
     margin-left: 10px;
 }
+.rememberme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 /* #root{
     width: 100%;
     height: 800px;
 } */
 @media screen and (max-width:875px) {
+    .forms{
+        width: 100%;
+    }
+    .signup-form{
+        width: 90%;
+    }
     .music-img{
         display: none;
     }
     .input-feild{
+        width: 100%;
        margin-left: 10px;
     }
 }

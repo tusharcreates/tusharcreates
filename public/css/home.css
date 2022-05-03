@@ -1,0 +1,102 @@
+* {
+  font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  width: 100%; }
+
+input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid darkgray; }
+
+.red {
+  color: red;
+  margin-bottom: 30px; }
+
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%; }
+
+.signup-form {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: white;
+  box-shadow: 10px 10px 30px;
+  height: 500px; }
+
+.music-img {
+  width: 50%; }
+
+.forms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  color: darkgray; }
+
+.input-feild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.submit-button {
+  margin-left: 80px;
+  color: darkgray;
+  background: none;
+  border: 1px darkgray solid;
+  cursor: pointer; }
+
+.submit-button:hover {
+  background: darkgrey;
+  color: white; }
+
+.login-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+.signup {
+  font-size: small;
+  text-decoration: underline;
+  color: #7777ff;
+  cursor: pointer; }
+
+.feild {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; }
+
+#password {
+  margin-left: 10px; }
+
+.rememberme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; }
+
+/* #root{
+    width: 100%;
+    height: 800px;
+} */
+@media screen and (max-width: 875px) {
+  .forms {
+    width: 100%; }
+  .signup-form {
+    width: 90%; }
+  .music-img {
+    display: none; }
+  .input-feild {
+    width: 100%;
+    margin-left: 10px; } }

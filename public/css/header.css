@@ -1,0 +1,43 @@
+.heading {
+  height: 80px;
+  width: 100%;
+  border-bottom: 3px solid #e9e9e9;
+  display: flex;
+  font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 30px;
+  position: relative; }
+
+.head-ico {
+  font-size: 60px;
+  color: #1b73e8;
+  margin-right: 10px; }
+
+.togit {
+  color: #1b73e8;
+  position: absolute;
+  left: 20px;
+  height: 30px;
+  width: 10%;
+  overflow: hidden;
+  min-width: 80px;
+  background: none;
+  border-radius: 5px;
+  border: 2px #1b73e8 solid;
+  transition: linear 0.2s;
+  font-weight: 600;
+  cursor: pointer; }
+
+.togit:hover {
+  color: white;
+  background: #1b73e8;
+  border: 2px white solid;
+  box-shadow: 0px 0px 19px 3px #1b73e8; }
+
+@media screen and (max-width: 700px) {
+  .heading {
+    font-size: 15px; }
+  .head-ico {
+    font-size: 30px; } }
